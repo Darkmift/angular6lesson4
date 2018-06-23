@@ -9,6 +9,7 @@ import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 
 import { HttpClientModule } from "@angular/common/http";
+import { JsonpModule, Jsonp, Response } from "@angular/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
@@ -23,6 +24,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    JsonpModule,
     BrowserAnimationsModule
   ],
   providers: [],
